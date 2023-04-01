@@ -1,7 +1,7 @@
 {
   "name": "netlify-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "An Waline starter repository for deploy to netlify.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/walinejs/netlify-starter.git"
@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/walinejs/netlify-starter#readme",
   "dependencies": {
-    "@waline/vercel": "^1.28.0-alpha.3",
+    "@waline/vercel": "^1.28.0",
     "serverless-http": "^3.2.0"
   }
 }
