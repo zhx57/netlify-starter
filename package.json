@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/walinejs/netlify-starter#readme",
   "dependencies": {
-    "@waline/vercel": "^1.28.0-alpha.1",
+    "@waline/vercel": "^1.28.0-alpha.2",
     "serverless-http": "^3.2.0"
   }
 }
