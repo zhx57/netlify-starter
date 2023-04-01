@@ -2,10 +2,6 @@
   "name": "netlify-starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/walinejs/netlify-starter.git"
@@ -18,7 +14,7 @@
   },
   "homepage": "https://github.com/walinejs/netlify-starter#readme",
   "dependencies": {
-    "@waline/vercel": "^1.27.1",
+    "@waline/vercel": "^1.28.0-alpha.0",
     "serverless-http": "^3.2.0"
   }
 }
