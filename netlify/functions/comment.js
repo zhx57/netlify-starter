@@ -1,5 +1,3 @@
-process.env.DETA_RUNTIME = 'true';
-
 const http = require('http');
 const Waline = require('@waline/vercel');
 const serverless = require('serverless-http');
