@@ -1,2 +1,8 @@
 [functions]
   directory = "netlify/functions/"
+  
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/comment/:splat"  # 转发到 comment 云函数
+  status = 302              # 302 = 临时跳转（客户端 URL 会变更为目标路径）
+  force = true
