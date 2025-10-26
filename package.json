@@ -16,6 +16,10 @@
   "dependencies": {
     "@waline/vercel": "^1.31.9",
     "serverless-http": "^4.0.0",
-    "zhx-node-ip2region": "^1.0.1"
+    "zhx-node-ip2region": "^1.0.1",
+    "module-alias": "^2.2.3"
+  },
+  "_moduleAliases": {
+    "dy-node-ip2region": "node_modules/zhx-node-ip2region"
   }
 }
