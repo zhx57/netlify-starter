@@ -1,4 +1,3 @@
-require('module-alias/register');
 const http = require('http');
 const Waline = require('@waline/vercel');
 const serverless = require('serverless-http');
